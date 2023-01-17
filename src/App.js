@@ -12,7 +12,7 @@ import Service from "./components/Service";
 import Menu from "./components/Menu";
 
 const App = () => {
-  const [{ foodItems }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const fetchData = async () => {
     await getAllFoodItems().then((data) => {
