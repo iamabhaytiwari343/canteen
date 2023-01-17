@@ -1,8 +1,8 @@
 import React from 'react'
-// import img1 from "../img/c1.png"
-// import img2 from "../img/c2.png"
-// import img3 from "../img/c3.png"
-// import img4 from "../img/c4.png"
+import img1 from "../img/c1.png"
+import img2 from "../img/c2.png"
+import img3 from "../img/c3.png"
+import img4 from "../img/c4.png"
 
 const Menu = () => {
   return (
