@@ -23,9 +23,9 @@ const App = () => {
     });
   };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
   return (
     <AnimatePresence exitBeforeEnter>
