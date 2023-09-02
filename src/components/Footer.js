@@ -23,7 +23,7 @@ const Footer = () => {
         <div class="text-center p-4">
           &copy; 2022 Copyright: <a class="text-white" href="mailto:abhay@gmail.com">Abhay Tiwari</a>
         </div>
-        <div class="text-center pt-9">
+        {/* <div class="text-center pt-9">
           <div class="flex justify-center space-x-9">
             <a href="#" class="text-gray-800">
               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -49,8 +49,8 @@ const Footer = () => {
               <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
               </svg>
             </a>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </footer>
   )
