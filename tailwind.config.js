@@ -4,11 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    
+
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./img/photo2.jpg')",
-        
+
       },
       width: {
         150: "150px",
@@ -62,10 +62,10 @@ module.exports = {
         cartBg: "#34D399",
         cartItem: "#2e3033",
         cartTotal: "#343739",
-        Secondary: "#ECFEFF",
+        secondary: "#ECFEFF",
       },
     },
-    },
-  
+  },
+
   plugins: [],
 }

@@ -3,14 +3,14 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDUFna-6b-B7aP2aRdNW56GlUMHJnhoWl0",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "bit-canteen.firebaseapp.com",
     databaseURL: "https://bit-canteen-default-rtdb.firebaseio.com",
     projectId: "bit-canteen",
     storageBucket: "bit-canteen.appspot.com",
     messagingSenderId: "119692725179",
-    appId: "1:119692725179:web:3e05019e52ed8cc909929e",
-    measurementId: "G-7X5HW7N0ZY"
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);

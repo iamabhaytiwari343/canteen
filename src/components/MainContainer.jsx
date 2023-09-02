@@ -6,10 +6,10 @@ import RowContainer from "./RowContainer";
 import { useStateValue } from "../context/StateProvider";
 import MenuContainer from "./MenuContainer";
 import CartContainer from "./CartContainer";
-import Trending from "./Trending";
+import Trends from "./Trending";
 import New from "./New";
-import About from "./About";
-import Services from "./Services";
+
+
 
 const MainContainer = () => {
   const [{ foodItems, cartShow }, dispatch] = useStateValue();
@@ -51,9 +51,9 @@ const MainContainer = () => {
         />
       </section>
       <New />
-<Trending />
-<About />
-<Services />
+      <Trends />
+      {/* <About />
+      <Services /> */}
 
       <MenuContainer />
 
