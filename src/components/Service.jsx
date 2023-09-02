@@ -41,7 +41,6 @@ const Service = () => {
                                         </p>
                                     </div>
                                 </div>
-
                                 <div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                                     <div class="w-full flex mb-4 items-center">
                                         <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
