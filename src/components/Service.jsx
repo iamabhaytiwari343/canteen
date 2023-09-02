@@ -48,7 +48,7 @@ const Service = () => {
                                             <img src={avatar} alt="Avatar" />
                                         </div>
                                         <div class="flex-grow pl-3">
-                                            <h6 class="font-bold text-sm uppercase text-gray-600">Abhijeet</h6>
+                                            <h6 class="font-bold text-sm uppercase text-gray-600">Sarthak</h6>
                                         </div>
                                     </div>
                                     <div class="w-full">
