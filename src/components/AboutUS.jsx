@@ -1,43 +1,9 @@
 import React from 'react';
 import img from '../img/messmanager.png';
 import img1 from '../img/canteen.jfif';
-// import { firestore } from '../firebase.config';
-// import { useState } from 'react';
+
 
 const AboutUS = () => {
-  // const [formData, setFormData] = useState({
-  //   name: '',
-  //   email: '',
-  //   subject: '',
-  //   message: '',
-  // });
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: value,
-  //   });
-  // };
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   // Add the form data to Firestore
-  //   firestore.collection('formSubmissions')
-  //     .add(formData)
-  //     .then(() => {
-  //       console.log('Form data submitted successfully.');
-  //       // Optionally, you can reset the form fields here
-  //       setFormData({
-  //         name: '',
-  //         email: '',
-  //         subject: '',
-  //         message: '',
-  //       });
-  //     })
-  //     .catch((error) => {
-  //       console.error('Error submitting form data: ', error);
-  //     });
-  // };
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="w-full max-w-lg p-4 bg-white rounded-md shadow-md">
